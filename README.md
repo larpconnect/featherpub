@@ -8,11 +8,11 @@ FeatherPub is an implementation of ActivityPub aimed at solving the following:
 - **ActivityPub is hard to test**. Testing asynchronous systems is difficult just to start with, but while tools exist to do this none of these are defined as part of the ActivityPub spec. This leads to implementations having various ways of implementing testing which are not cross compatible, or only cross compatible because of heroic work from developers who are trying to interoperate.
 - **ActivityPub is unopinionated**. Whether you are building a codeforge or a microblogging application, ActivityPub didn't want to close any doors. This makes it hard to know that you have implemetned "enough" of it, and makes it impossible to implement all of it.
 
-In some contexts these are all the result of tradeoffs made during the creation of ActivityPub, sometimes these are the result of how the big systems in this space operate, but regardless of why they came about they are now things that we need to find ways to address.
+In some contexts these are all the result of tradeoffs made during the creation of ActivityPub which may make sense for the protocol family as a whole but not for individual members of that family, sometimes these are the result of how the big systems in this space operate, but regardless of why they came about they are now things that we need to find ways to address.
 
 FeatherPub is _not a fork_. FeatherPub is an implementation that aims to be an opinionated implementation framework for solving the problems in a project the developer is working on called Njall, in this sense it can be considered as part of the ongoing development of Njall, spun off into its own form.
 
-To do this it combines several different specs, including FEPs and other specs layered on top of ActivityPub, and specifies One Way(tm) of building these systems, based largely (but not entirely) on how these systems are build in practice. It aims to be interoperable "out of the gate" and make it easy to interoperate.
+To do this it combines several different specs, including FEPs and other specs layered on top of ActivityPub, and specifies One Way(tm) of building these systems, based largely (but not entirely) on how these systems are build in practice. It aims to be interoperable "out of the gate" and make it easy to interoperate for extant services, but does not aim to interoperate with, e.g., Mastodon's specific implementation.
 
 This is a work in progress. It is not meant to be used in its present state, but rather to show and get feedback on this way of building compatible systems. This will change later, and the goal is to fully release this in a more open way down the road. I have no desire to be a BDFL.
 
