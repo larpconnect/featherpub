@@ -22,7 +22,7 @@ changed to `audience` and later still the meaning was lost so that it is now sem
 from `cc`.
 
 This spec aims to bring its use more in line with its original purpose. It should be noted that this is
-_not access control_. More properly this should be understood as a visibility filter.
+_not access control_. More properly this should be understood as a filter on the targeting fields.
 
 ## Motivation
 
