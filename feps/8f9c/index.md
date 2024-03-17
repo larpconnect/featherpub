@@ -46,7 +46,7 @@ The spec introduces the following "pseudocollections":
 - `<uri>/#Local`
 - `as:Limited`
 
-The `<uri>` MUST contain an authority and a secure schema, and MUST NOT contain any fragment other than `#Limited` or `#Public`. As with pseudocollections in ActivityPub these must _not_ be sent to as if they were inboxes.
+The `<uri>` MUST contain an authority and a secure schema, and MUST NOT contain any fragment other than `#Limited`, `#Local`, or `#Public`. As with pseudocollections in ActivityPub these must _not_ be sent to as if they were inboxes.
 
 The `audience` field is always a list and may contain:
 
