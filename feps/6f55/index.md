@@ -4,7 +4,7 @@ authors:
   - Hrefna <@hrefna@hachyderm.io>
 status: DRAFT
 dateReceived:
-discussionsTo:
+discussionsTo: https://github.com/larpconnect/featherpub/issues/1
 featherPubState: REQUIRED
 tags:
   - "#ActivityPub"
