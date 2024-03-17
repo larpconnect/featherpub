@@ -100,7 +100,7 @@ Receiving servers MAY choose to reject messages that violate any of these rules.
 
 ## Security
 
-It cannot be emphasized enough that this is not an _access control feature_. This is not a specification of "who can access the object," rather this is a statement about "who the object should can be sent to." This is a "scope" for the messages and is mostly meant as a way for the client to tell their server "only send this to my followers who are on these three servers."
+It cannot be emphasized enough that this is not an _access control feature_. This is not a specification of "who can access the object," rather this is a statement about "who the object should/can be _sent_ to." This is a "scope" for the messages and is mostly meant as a way for the client to tell their server "only send this to my followers who are on these three servers."
 
 This system makes no guarantees that servers being sent to are conformant and has no mechansims to ensure this. Still, it is beneficial for conformant servers to more generally "play by the rules" where they can do so.
 
