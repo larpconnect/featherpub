@@ -4,7 +4,7 @@ Broadly speaking FeatherPub may be divided into three sections:
 
 - _Federated_ -- what is required for FeatherPub to federate with itself and others
 - _Client_ -- How a client can talk to a FeatherPub service
-- _Server_ -- What is required to set up such a server.
+- _Server_ -- What is required to set up such a server
 
 Demarcating these and splitting them into separate areas is work for the future, but for the most part it should be clear which mantle they fall under, and in some cases it will be made explicit. A "FeatherPub-compliant" server will implement all three of them, but servers may theoretically choose to implement just "FeatherPub Server" and "FeatherPub Client" without implementing federation, say, or any other mixture/combination.
 

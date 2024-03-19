@@ -8,7 +8,6 @@ discussionsTo: https://github.com/larpconnect/featherpub/issues/2
 featherPubState: REQUIRED
 tags:
   - "#ActivityPub"
-  - "#http"
   - "#FeatherPub"
 ---
 

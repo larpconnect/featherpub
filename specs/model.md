@@ -17,4 +17,4 @@ To do this, types are divided into one of four cases:
 3. **Classes**. These cannot combine with additional classes or abstract classes, but can include mixins. Can be used as a primary type.
 4. **Mixins**. These cannot be instantiated on their own, but can be combined with a primary type. Mixins can be **implicit** (and thus can be used without being declared in the type signature) or **explicit** (must be declared in the type signature to be used).
 
-In addition, types are classified into **packages**. Packages are a notational grouping that is used for conceptual convenience, but the dependency tree between packages is maintained as a DAG: no circular dependencies allowed.
+In addition, types are classified into **packages**. Packages are a notational grouping that is used more for conceptual convenience, but the dependency tree between packages is maintained as a DAG: no circular dependencies allowed.

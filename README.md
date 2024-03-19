@@ -16,6 +16,8 @@ To do this it combines several different specs, including FEPs and other specs l
 
 This is a work in progress. It is not meant to be used in its present state, but rather to show and get feedback on this way of building compatible systems. This will change later, and the goal is to fully release this in a more open way down the road. I have no desire to be a BDFL.
 
+This project is an outgrowth of my work on Njall (LarpConnect) and can be considered as part of the author trying to figure out how to do what they wanted in AP for that project.
+
 ## What FeatherPub Does (or Aims to Do) Differently
 
 At FeatherPub's core is an unwinding of the assumptions that RDF and JSON-LD bring into this space. While these are reasonable technologies for a set of problems their application in this space has caused a great deal of confusion. This is not to say this is the only way to approach this--for example, the [ActivityPub Minimal Core](https://github.com/steve-bate/activitypub-mincore) takes the opposite approach--but rather it is an opinionated way to solve these problems.
@@ -23,6 +25,8 @@ At FeatherPub's core is an unwinding of the assumptions that RDF and JSON-LD bri
 It aims to be compatible _on write_ with other ActivityPub implementations. Which is to say it is not going to do anything too strange and a fully compliant ActivityPub system will generally be able to understand a FeatherPub object. But it only aims to _read_ other FeatherPub implementations. Nothing in this spec should be construed to say that you can't or even shouldn't read other implementations, but rather to define a subset that says: "if you can read these items then you can talk to any FeatherPub instance, at least at a basic level."
 
 It also defines some specifications for the _server_ and _protocol_ outside of what ActivityPub covers. Things like security need to be eventually given some coverage, and details such as whether to implement NodeInfo are covered as well. The goal is that FeatherPub-based systems be able to talk with other FeatherPub-based systems mostly or entirely based around _spec compliance_ rather than needing to address every situation individually.
+
+FeatherPub seeks to be ameniable to code generation, declarative designs, and compile-time typing, as much as these things are possible inside of ActivityPub.
 
 ## Development and Layout
 
