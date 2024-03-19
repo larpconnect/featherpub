@@ -41,6 +41,6 @@ There's an aim to provide `.feature` files for pieces, but the code to run the _
 
 # License
 
-Code, including `.feature` code, is under Apache 2.0, see the LICENSE file for more details.
+Code, including `.feature` code, is under Apache 2.0. See the LICENSE file for more details.
 
-The goal is to release the spec itself under either CC-0 (as a FEP) or CC-BY 4.0. But until it is further along these parts will be "all rights reserved." This applies to any markdown or plain text files.
+The goal is to release the spec itself under either [CC0 Universal 1.0](https://creativecommons.org/publicdomain/zero/1.0/) (for the FEPs) or [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) (for most everything else). But until it is further along these parts will be "all rights reserved." This applies to any markdown or plain text files.

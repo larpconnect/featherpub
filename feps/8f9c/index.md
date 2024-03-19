@@ -21,7 +21,7 @@ changed to `audience` and later still the meaning was lost so that it is now sem
 from `cc`.
 
 This spec aims to bring its use more in line with its original purpose. It should be noted that this is
-_not access control_. More properly this should be understood as a filter on the targeting fields.
+_not access control_. More properly this should be understood as a filter on the targeting fields. Unlike with [FEP-7502: Limiting visibility to authenticated actors](https://codeberg.org/fediverse/fep/src/branch/main/fep/7502/fep-7502.md) this proposal does not aim to restrict _visibility_, simply limit who the entire object is _sent_ to, in particular by the originating server and client (who already decide who to send it to in the first place).
 
 ## Motivation
 
